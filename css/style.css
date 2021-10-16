@@ -1,0 +1,45 @@
+#toDoList {
+  background: url(../images/72607.jpg) no-repeat center;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  height: 100vh;
+}
+
+#taskInput,
+#allTasks {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  background-color: #cccccc70;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+#taskInput input ,
+#allTasks .taskContent
+{
+  font-size: 20px;
+}
+
+#taskInput input::placeholder{
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#allTasks .taskContent {
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+#allTasks .task .taskContent:hover{
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+#allTasks .task .taskContent.done{
+background-color: #ccc;
+}
